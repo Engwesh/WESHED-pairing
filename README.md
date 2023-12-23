@@ -9,9 +9,9 @@ pkg install git
 
 pkg install ffmpeg
 
-git clone https://github.com/MG-WESH/WESHED-pairing.git
+git clone https://github.com/MG-WESH/WESHED-pairing
 
-cd WESHED-pai
+cd WESHED-pairing
 
 npm install
 
