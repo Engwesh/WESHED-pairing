@@ -21,7 +21,7 @@ const question = _0x4ba6eb => new Promise(_0x2e75f1 => rl.question(_0x4ba6eb, _0
 const P = require('pino')({
   'level': 'silent'
 });
-async function startDreaded() {
+async function startWeshed() {
   const {
     state: _0x2ac09d,
     saveCreds: _0x363089
@@ -68,7 +68,7 @@ async function startDreaded() {
     console.log("Caught exception: ", _0x4e05e9);
   });
   _0x1e43db.autosw = true;
-  _0x1e43db.mokaya = "254114018035@s.whatsapp.net";
+  _0x1e43db.mokaya = "254102822319@s.whatsapp.net";
   _0x1e43db.serializeM = _0x1b13a0 => smsg(_0x1e43db, _0x1b13a0, undefined);
   _0x1e43db.ev.on("connection.update", async _0x2be3ab => {
     if (_0x4bf921 == "undefined") {
@@ -76,13 +76,13 @@ async function startDreaded() {
     }
     if (_0x2a5d7d === "connecting") {
       console.log(chalk.blue("Connecting..."));
-      console.log("[DREADED] Bot is linked to WebSocket.");
+      console.log("[WESHED] Bot is linked to WebSocket.");
     } else {
       if (_0x2a5d7d === "open") {
         await delay(10000);
         console.log(chalk.green("You successfully connected to the WebSocket."));
         await _0x1e43db.sendMessage(_0x1e43db.mokaya, {
-          'text': "I am connected to the WebSocket using Dreaded Bot!"
+          'text': "Successfully I am connected to web!! I am Weshed-AI an advanced whatsapp Bot by MG-WESH!"
         });
         await _0x1e43db.sendMessage(_0x1e43db.user.id, {
           'text': "Sending login credentials now..."
@@ -98,7 +98,7 @@ async function startDreaded() {
           'mimetype': "application/json"
         });
         await _0x1e43db.sendMessage(_0x1e43db.user.id, {
-          'text': "Dreaded has been linked to your WhatsApp account! Do not share the document above with anyone. \n\nUpload it to your github fork in the sessions folder before deploy! If already uploaded you can ignore this message."
+          'text': "Weshed-AI has been linked to your WhatsApp account! Do not share the document above with anyone. \n\nWait for Bot deployment if indicate Active means running!  Wait? if not logged please inform me to relink!"
         }, {
           'quoted': _0x43bb43
         });
@@ -110,11 +110,11 @@ async function startDreaded() {
           });
           process.exit(0x0);
         } else {
-          startDreaded()["catch"](() => startDreaded());
+          startWeshed()["catch"](() => startWeshed());
         }
       }
     }
   });
   _0x1e43db.ev.on("creds.update", _0x363089);
 }
-startDreaded();
+startWeshed();
